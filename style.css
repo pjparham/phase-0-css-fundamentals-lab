@@ -3,3 +3,44 @@ body {
   height: 100%;
   margin: 0;
 }
+h1 {
+  margin: auto;
+  text-align: center;
+}
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+nav a {
+  padding-left: 10px;
+  padding-right: 10px;
+  background-color: aquamarine;
+} 
+nav{
+  text-align: center;
+}
+figcaption {
+  text-align: center;
+  font-size: 0.875em;
+}
+/*p#featured-property {
+  width: 800px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  background-color: blue;
+} the above would reference p elements tagged with featured property, while the below will target all p tags within featured property element*/
+#featured-property p {
+  width: 800px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  background-color: gray;
+  text-align: center; /*this centers the text within the element or 'box' that it lives in*/
+  margin: auto; /*this centers the element or 'box' that text lives in within the grand scheme of the page*/
+}
+div {
+  float: left;
+  background-color: red;
+  text-align: center;
+  width: 25%;
+}
